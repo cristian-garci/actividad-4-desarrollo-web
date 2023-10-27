@@ -1,0 +1,20 @@
+body {
+    background-image: url("./imajenes/ropade7.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: monospace;
+
+}
+
+
+table{
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+
+th, td{
+	border: 1px solid black;
+	padding: 15px;
+}

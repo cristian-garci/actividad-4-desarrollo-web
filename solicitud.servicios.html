@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./style/style.contruccion.css">
+	<title>contruccion</title>
+</head>
+<body>
+ <h1>ingresa tus datos y la solicitud que deseas</h1>
+  <!-- se crea el  formulario -->
+<form  action="datos.php" method="post">
+<!-- se crean los campos reuqurios un ientificador y un id" -->
+	<label for = "nombre y apellido">nombre y apellido </label>
+	<input type="text" name="nombreyapellido"  id="nombre y apellido" placeholder="ingrese su nombre y apellido" required>
+
+
+	<label for = "numero celular">numero celular </label>
+	<input type="number" name="numerocelular" id = "numero celular"   placeholder ="ingrese solo numeros" required>
+
+	<label for = "correo">correo </label>
+	<input type="email" name="correo" id = "correo"placeholder="ingrese su correo" required>
+<!-- Menú desplegable-->
+
+	<select  name ="tabla"class = "f1" id="Servicio que solicita" onchange="miFuncion()">
+    <option value="Personalización" selected>Personalización</option>
+    <option value=" Pedido Mayorista" selected> Pedido Mayorista</option>
+    <option value="Devolución" selected>Devolución</option>
+   
+
+</select>
+<!-- boton para enviar el formulario -->
+	
+ <input type="submit"  value="enviar">
+
+ </form  >
+
+ 
+<!-- boton cancelar para enviar lala pagina inicio -->
+<form action="index.html" method="POST">
+    <input type="submit" value="cancelar">
+ 
+ </form>
+
+
+
+
+
+
+
+
+
+	
+
+
+</body>
+</html>
